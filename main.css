@@ -549,4 +549,19 @@ table {
 	border: 5px solid #111111;
 	border-top: 1px solid #111111;
 	text-align: center;
+	position: relative;
+}
+.screen  .contButton{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.screen .backButton{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
