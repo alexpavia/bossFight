@@ -3,26 +3,28 @@
 <head>
 
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="project.js"></script>
-	
 	<meta name=viewport content='width=700'>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="project.js"></script>
 
 </head>
 <body>
+	<div class="banner">
+		<input type="image" src="backgrounds/banner.png" onclick="location.href = 'screen1welcome.html';">
+	</div>
 
-<div class="banner">
-	<input type="image" src="backgrounds/banner.png" onclick="location.href = 'screen1welcome.html';">
-</div>
-
-<div class="screen">
-	
+	<div class="screen">
 		
-	
-	<button type="button" id="backButton" class="backButton" onclick="location.href = 'screen4instructions.html';">Back</button>
-	
-	
-	
-</div>
+		<script>alertToPlayer(greetingArray);</script>
+		
+		
+		<button type="button" id="backButton" class="backButton" onclick="location.href = 'screen4instructions.html';">Back</button>
+		
+		
+		
+	</div>
 
 </body>
 </html>
